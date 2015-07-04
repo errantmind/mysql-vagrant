@@ -10,6 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, :path => "install.sh"
   config.vm.synced_folder ".", "/vagrant", :mount_options => ["dmode=777", "fmode=666"]
   config.vm.provider "virtualbox" do |v|
+    v.name = "mysql-vagrant"
     v.memory = 1024
   end
 end

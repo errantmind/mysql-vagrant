@@ -1,6 +1,6 @@
 # mysql-vagrant
 
-mysql-vagrant is a quick way to run mysql locally for development without an ssh tunnel
+mysql-vagrant is a quick way to run mysql locally, using dropbox, for development without an ssh tunnel
 
 ### Start server
 
